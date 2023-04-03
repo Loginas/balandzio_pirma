@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <title>Balandžio 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Rubik+Iso&display=swap" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+   
+    <h1 id="manoh1">Iš mokesčių inspekcijos</h1>
+    <p id="manop">Kartą tą dieną nusiunčiau el.laišką savo draugui programuotojui, kaip iš Microsoft<br> kaip... ilgai stebėjome jūsų veiklą ir nusprendėme pakviesti į savo rusakalbių komandą.<br> Pagarbiai... bla bla bla (viskas buvo kaip turi būti, apskritai buvo).<br>
+Dėl to draugas po kelių minučių atskrenda į mūsų poilsio kambarį ir šaukia: „Na, tas<br> lošari... mano vardas Microsoft, aš tau sakiau, kad esu geriausias“.<br>
+Mes juokėmės, papasakojome jam... ir jis dūko 2 savaites...<br>
+
+
+</p>
+<button onclick="balandziopirma();">Susismokėtį baudą</button>
+
+<script>
+    
+    function balandziopirma(){
+    document.getElementById('manoh1').style.fontFamily = 'Rubik Iso';
+    document.getElementById('manoh1').style.color = 'yellow';  
+    
+    document.getElementById('manop').style.fontFamily = 'Fasthand';
+    document.getElementById('manop').style.fontSize = '25';
+    document.getElementById('manop').style.color = 'yellow';
+    
+    document.body.style.backgroundImage = 'url(joke.jpg)';
+    document.body.style.backgroundRepeat = 'no-repeat';
+    document.body.style.backgroundPosition = 'top';
+    };
+    
+    </script>
+</body>
+</html>
